@@ -1,0 +1,2 @@
+[26-Feb-2021 09:35:03 UTC] PHP Warning:  require(../../vendor/autoload.php): failed to open stream: No such file or directory in /home/saurav/public_html/pkpass/pass5/examples/starbucks_sample/index.php on line 19
+[26-Feb-2021 09:35:03 UTC] PHP Fatal error:  require(): Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/saurav/public_html/pkpass/pass5/examples/starbucks_sample/index.php on line 19

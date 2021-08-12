@@ -1,0 +1,126 @@
+2010 By Stankowic Development
+http://www.stankowic-development.net
+webmaster@stankowic-development.net
+
+LIESMICH "vcardexp v0.2"
+
+
+
+BENUTZUNG
+
+	Zuerst muss im Skript die Erweiterung geladen und instanziert werden, dies geschiet beispielsweise durch:
+	
+	
+		include("vcardexp.inc.php");
+		$test = new vcardexp;
+	
+	Im folgenden werden die benoetigten Felder der digitalen Visitenkarte gesetzt (siehe EINSTELLUNGSWERTE):
+	
+	
+		$test->setValue("EINSTELLUNGSFELD", "Wert");
+		$test->setValue("EINSTELLUNGSFELD", "Wert");
+		...
+	
+	Letztendlich wird die Karte exportiert und somit zum Download angeboten:
+	
+	
+		$test->getCard();
+
+
+
+EINSTELLUNGSWERTE
+
+	Die folgenden Einstellungen stehen zur Definition innerhalb der digitalen Visitenkarte zur Verfuegung:
+	
+	EINSTELLUNG				BESCHREIBUNG
+	language					Sprache der digitalen Visitenkarte
+	firstName					Vorname
+	additionalName				Zweitname
+	lastName					Nachname
+	title						Titel
+	addon					Zusatz
+	organisation				Firma
+	note						Notiz
+	tel_work					Telefonnummer Arbeit
+	tel_home					Telefonnummer Privat
+	tel_cell					Handynummer
+	tel_car					Telefonnummer Autotelefon
+	tel_isdn					Telefonnummer ISDN
+	tel_pref					Standard-Telefonnummer
+	fax_work					Faxnummer Arbeit
+	fax_home					Faxnummer Privat
+	street_work				Strasse Arbeit
+	city_work					Stadt Arbeit
+	postal_work				Postleitzahl Arbeit
+	country_work				Land Arbeit
+	street_home				Strasse Privat
+	city_home					Stadt Privat
+	postal_home				Postleitzahl Privat
+	country_home				Land Privat
+	url						URL der Homepage
+	email_internet				E-Mail-Adresse
+	email_pref					Standard-E-Mail-Adresse
+
+
+
+FUNKTIONEN
+
+	Innerhalb der Bibliothek stehen folgende Funktionen zur Verfuegung:
+	
+	FUNKTION					BESCHREIBUNG
+	setPicture($code)			Setzt den Code des Bildes direkt, kann bei Integration in Software-Loesung notwendig
+							sein, um unnoetige Zugriffe auf die Festplatte zu unterbinden. $code entspricht hierbei
+							einem BASE64-kodierten String, der den binaeren Inhalt des JPEG-Bildes enthaelt.
+							Diese Funktion sollte im Regelfall nicht benutzt werden, da mit copyPicture() eine
+							einfachere Funktion zum Setzen eines Bildes zur Verfuegung steht.
+	setValue($setting, $value);		Setzt einen Einstellungswert der digitalen Visitenkarte. $setting entspricht einem gueltigen
+							Einstellungswert (siehe auch EINSTELLUNGSWERTE). $value enthaelt den eigentlichen
+							Inhalt der Einstellung, beispielsweise eine Telefonnummer.
+	copyPicture($filename);		Erstellt aus einer JPEG-Datei einen gueltigen BASE64-Code, welcher spaeter in die digitale
+							Visitenkarte eingebunden wird. $filename muss hier einen gueltigen Dateinamen enthalten.
+	dump();					Gibt einen Dump der gesetzten Werte aus, anstatt eine Karte zu erstellen.
+	getCard();					Erstellt die digitale Visitenkarte und bietet sie zum Download an.
+
+
+
+BEISPIEL
+
+	Das folgende Beispiel generiert eine gueltige digitale Visitenkarte:
+	
+		<?php
+			include("vcardexp.inc.php");
+			$test = new vcardexp;
+			
+			$test->setValue("firstName", "Max");
+			$test->setValue("lastName", "Mustermann");
+			$test->setValue("organisation", "Mustermann Holding GmbH");
+			$test->setValue("tel_work", "01234/567890");
+			$test->setValue("tel_home", "069/0123456");
+			$test->setValue("tel_pref", "069/0123456");
+			$test->setValue("url", "http://www.foo.bar");
+			$test->setValue("email_internet", "max@foo.bar");
+			$test->setValue("email_pref", "max@foo.bar");
+			$test->setValue("street_home", "Musterstrasse 1");
+			$test->setValue("postal_home", "12345");
+			$test->setValue("city_home", "Musterstadt");
+			$test->setValue("country_home", "Musterland");
+			$test->copyPicture("test.jpg");
+			
+			$test->getCard();
+		?>
+
+
+
+BEKANNTE FEHLER / EFFEKTE
+
+	- Nicht gesetzt werden koennen derzeit: Zweitname, Zusatz, Notiz
+	- Es koennen nur zwei E-Mails (statt drei) gesetzt werden
+	- Es kann nur eine Privat-Telefonnummer gesetzt werden (statt zwei)
+	- Es wird keine Ueberpruefung der Felder vorgenommen, bei fehlerhaften Eingaben wird eine fehlerhafte
+	VCard ausgegeben
+
+
+
+DISCLAIMER
+
+	Die Bibliothek wird unter der GPL (GNU Public License) lizensiert, die Lizenzverfassung liegt dem Archiv bei.
