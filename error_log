@@ -1,0 +1,67 @@
+[20-Nov-2020 07:52:23 UTC] PHP Fatal error:  require(): Failed opening required '/libraries/BaseController.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/saurav/public_html/tagi/application/controllers/Admin.php on line 2
+[23-Dec-2020 09:04:08 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:04:13 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:05:00 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:05:32 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:05:51 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:05:53 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:05:54 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:05:56 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:07:45 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:07:49 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[23-Dec-2020 09:07:52 UTC] PHP Fatal error:  Cannot redeclare Home::tagiDetails() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 1265
+[28-Dec-2020 07:49:17 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:49:24 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:49:28 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:50:23 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:51:25 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:51:43 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:51:49 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:51:58 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:52:03 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:52:06 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:52:10 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:52:12 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:54:22 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:56:11 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:56:53 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Dec-2020 07:57:11 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 646
+[28-Jan-2021 10:44:28 UTC] PHP Notice:  Undefined index: log_path in /home/saurav/public_html/tagi/system/core/Log.php on line 127
+[28-Jan-2021 10:44:28 UTC] PHP Notice:  Undefined index: log_path in /home/saurav/public_html/tagi/system/core/Log.php on line 127
+[28-Jan-2021 10:44:28 UTC] PHP Warning:  mkdir(): Invalid path in /home/saurav/public_html/tagi/system/core/Log.php on line 131
+[28-Jan-2021 10:44:28 UTC] PHP Notice:  Undefined index: log_threshold in /home/saurav/public_html/tagi/system/core/Log.php on line 138
+[28-Jan-2021 10:44:28 UTC] PHP Notice:  Undefined index: log_threshold in /home/saurav/public_html/tagi/system/core/Log.php on line 142
+[13-May-2021 12:19:37 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:37 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:38 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:38 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:42 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:42 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:43 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:44 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:44 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:45 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:46 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:47 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:47 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:48 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:49 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:50 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:53 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[13-May-2021 12:19:54 UTC] PHP Fatal error:  Cannot redeclare Home::changeEmailId() in /home/saurav/public_html/tagi/application/controllers/Api/Home.php on line 458
+[26-May-2021 09:19:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method vcardexp::addPhoto() in /home/saurav/public_html/tagi/vcard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/saurav/public_html/tagi/vcard.php on line 14
+[26-May-2021 09:19:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method vcardexp::addPhoto() in /home/saurav/public_html/tagi/vcard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/saurav/public_html/tagi/vcard.php on line 14
+[26-May-2021 09:20:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method vcardexp::addPhoto() in /home/saurav/public_html/tagi/vcard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/saurav/public_html/tagi/vcard.php on line 14
+[26-May-2021 09:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method vcardexp::addPhoto() in /home/saurav/public_html/tagi/vcard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/saurav/public_html/tagi/vcard.php on line 14

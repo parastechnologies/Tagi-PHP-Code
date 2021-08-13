@@ -1,0 +1,37 @@
+<?php
+$lang['error_email_registered'] = 'This email already registered so please enter other email id';
+$lang['successfully_register'] = 'Register Successfully';
+$lang['error_something_wrong'] = 'Something is wrong please try again';
+$lang['profile_updated'] = 'Profile updated successfully';
+$lang['login_successfully']= 'Login Successfully';
+$lang['invalid_credentials']= 'Invalid email or Password';
+$lang['email_updated'] = 'Email updated successfully';
+$lang['email_otp_updated'] = 'Code Matched Successfully';
+$lang['error_email_otp_updated'] = 'Please use valid Code';
+$lang['password_updated'] = 'Password updated successfully';
+$lang['error_confirm_password_not_match'] = 'New password and confirm password does not match so please try again';
+$lang['error_password_not_match'] = 'Password does not match so please try again';
+$lang['country_updated'] = 'Country updated successfully';
+$lang['added_successfully'] = 'Added successfully';
+$lang['medical_detail']= 'Medical Detail';
+$lang['error_not_found']= 'Data not found';
+$lang['details_updated_successfully'] = 'Details updated successfully';
+$lang['error_already_used'] = 'This TagMoi is already used';
+$lang['error_deactivated'] = 'TagMoi is Deactivated';
+$lang['error_valid_tagmoi'] = 'Please try again with valid tagMoi';
+$lang['error_already_exist'] ='link already exist';
+$lang['link_added_successfully'] = 'Link added successfully';
+$lang['error_tagmoi'] = 'Please use registered tagMoi';
+$lang['password_reset_message'] = 'Please check your mail for reset password';
+$lang['error_register_email'] = 'Email is not registered.Please Enter register email id';
+$lang['error_valid_email'] ='Please enter valid email id';
+$lang['error_password_match'] ="Password and confirm password doesn't match";
+$lang['delete_successfully'] = 'Deleted successfully';
+$lang['updated_successfully'] = 'Updated successfully';
+$lang['error_default_category'] = 'Please select default category before off it';
+$lang['tagmoi_added_successfully'] = 'TagMoi added successfully';
+$lang['error_tagmoi_valid'] = 'Please use valid tagMoi id';
+$lang['uploaded_successfully'] = 'Image uploaded Successfully';
+$lang['password_mail_message'] = 'Please check your mail for Code';
+$lang['oldEmail_otp_updated']='Code matched successfully, Please check your new email for Code';
+?>
